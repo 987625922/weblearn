@@ -8,8 +8,11 @@ export const constantRoutes = [
   // 学习首页
   {
     path: '/',
-    component: () => import('@/views/learn/index'),
-    hidden: true
+    component: () => import('@/views/learn/index')
+  },
+  {
+    path:'/css',
+    component:() => import('@/views/learn/css/index')
   }
 ]
 
