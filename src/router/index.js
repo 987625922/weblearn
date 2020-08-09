@@ -11,8 +11,11 @@ export const constantRoutes = [
     component: () => import('@/views/learn/index')
   },
   {
-    path:'/css',
-    component:() => import('@/views/learn/css/index')
+    path: '/css',
+    component: () => import('@/views/learn/css/index')
+  }, {
+    path: '/javascript',
+    component: () => import('@/views/learn/js/index')
   }
 ]
 
