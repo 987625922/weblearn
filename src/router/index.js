@@ -16,6 +16,9 @@ export const constantRoutes = [
   }, {
     path: '/javascript',
     component: () => import('@/views/learn/js/index')
+  },{
+    path:'/vue',
+    component:() => import('@/views/learn/vue/index')
   }
 ]
 

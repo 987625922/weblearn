@@ -2,6 +2,7 @@
   <div>
     <el-button @click="toCssPage" type="primary">跳转到css学习界面</el-button>
     <el-button @click="toJavaScript" type="primary">跳转到JavaScript学习界面</el-button>
+    <el-button @click="toVue" type="primary">跳转到vue学习界面</el-button>
   </div>
 </template>
 
@@ -19,6 +20,8 @@ export default {
     },
     toJavaScript(){
         this.$router.push({path:'/javascript'})
+    },toVue(){
+        this.$router.push({path:'/vue'})
     }
   }
 };
