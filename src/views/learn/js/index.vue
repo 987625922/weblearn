@@ -113,6 +113,36 @@
               id.style.backgroundColor="red"
             '>显示id为getElement的元素并改变背景颜色</button>
             <h6>HTML DOM的事件</h6>
+            <button style="display:block;margin-bottom:10px" onclick='function singleClick(button){
+                  var s= "被点击的按钮上的文本是："+ button.value
+                  alert(s)
+            };
+            //这个写法有问题，要普通的js写法
+            singleClick(this)'>this表示触发事件的组件，可以在调用函数的时候，作为参数传进去,onclcik为DOM的单击事件</button>
+            <input style="width:500px;display:block;margin-bottom:10px" type="text" id="onchange" value="如果输入框值发生了变化，就会触发js方法" onchange='
+              var onchange = document.getElementById("onchange")
+              alert(onchange.value)
+            '>
+            <h6>js操作节点</h6>
+            <!-- 判断提交的表单是否符合要求，符合要求才能提交 -->
+            <!-- <form method="post" action="/study/login.jsp" onsubmit="return login()">
+账号：<input id="name" type="text" name="name"> <br/>
+密码：<input type="password" name="password" > <br/>
+<input type="submit" value="登录">
+</form>
+  
+<script>
+  function login(){
+   var name = document.getElementById("name");
+   if(name.value.length==0){
+     alert("用户名不能为空");
+     return false;
+   }
+   return true;
+    
+  }
+</script> -->
+
     </div>
   </div>
 </template>
