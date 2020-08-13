@@ -51,7 +51,7 @@
     </div>
     <h3>- HTML DOM</h3>
     <div>
-      <h6>DOM把所有的html都转换为节点
+      <h3>DOM把所有的html都转换为节点
           整个文档 是一个节点
           元素 是节点
           元素属性 是节点
@@ -61,7 +61,7 @@
           通过document.getElementById获取了id=d1的div标签对应的元素节点
           然后通过attributes 获取了该节点对应的属性节点
           接着通过childNodes获取了内容节点
-        </h6>
+        </h3>
         <button id="getElement" style="border: 1px solid blue;" onclick='
         function p(s){
             document.write(s)
@@ -91,7 +91,7 @@
             document.write("div的内容节点值是："+content.nodeValue)
             id1.innerHTML="通过innerHTML改变内容"
             '>hello HTML DOM</button>
-            <h6>元素上的属性，比如id,value 可以通过 . 直接访问,如果是自定义属性,可以通过如下test标签的方式获取</h6>
+            <h3>元素上的属性，比如id,value 可以通过 . 直接访问,如果是自定义属性,可以通过如下test标签的方式获取</h3>
             <input id="input1" test="t1" value="这是一个输入框" type="text">
             <button onclick='var input1 = document.getElementById("input1")
                             var s = "id = "+input1.id+"<br>"
@@ -101,7 +101,7 @@
                             document.getElementById("getElement").innerHTML=s'>
                             通过getElementById获取input元素
                             </button>
-            <h6>一个元素节点的style属性即对应的css(通过js修改元素的css属性)</h6>
+            <h3>一个元素节点的style属性即对应的css(通过js修改元素的css属性)</h3>
             <button onclick='
               document.getElementById("getElement").style.display="none"
             '>
@@ -112,7 +112,7 @@
               id.style.display="block"
               id.style.backgroundColor="red"
             '>显示id为getElement的元素并改变背景颜色</button>
-            <h6>HTML DOM的事件</h6>
+            <h3>HTML DOM的事件</h3>
             <button style="display:block;margin-bottom:10px" onclick='function singleClick(button){
                   var s= "被点击的按钮上的文本是："+ button.value
                   alert(s)
@@ -123,7 +123,6 @@
               var onchange = document.getElementById("onchange")
               alert(onchange.value)
             '>
-            <h6>js操作节点</h6>
             <!-- 判断提交的表单是否符合要求，符合要求才能提交 -->
             <!-- <form method="post" action="/study/login.jsp" onsubmit="return login()">
 账号：<input id="name" type="text" name="name"> <br/>
@@ -142,7 +141,74 @@
     
   }
 </script> -->
+            <h3>js操作节点</h3>
+            <h6>创建节点</h6>
+            <div id="createElement"></div>
+            <button onclick='
+              var hr = document.createElement("hr")
+              var id1 = document.getElementById("createElement")
+              id1.appendChild(hr)
+            '>在这个按钮中追加一个hr元素</button>
+            <div id="cteateA" ></div>
+            <button onclick='
+            var a = document.createElement("a")
+            var content = document.createTextNode("12306.com")
+            a.appendChild(content)
 
+            var href = document.createAttribute("href")
+            href.nodeValue="12306.com"
+            a.setAttributeNode(href)
+
+            var id1 = document.getElementById("cteateA")
+            id1.appendChild(a)
+            '>在这个div中追加一个超链接元素</button>
+            <h6>删除节点</h6>
+            <div id="parentDiv">
+            <div id="div1">安全的div</div>
+            <div id="div2">即将被删除的div</div>
+            </div>
+            <button onclick='
+              var parentDiv = document.getElementById("parentDiv")
+              var id2 = document.getElementById("div2")
+              parentDiv.removeChild(id2)
+            '>
+            删除id为parentDiv的div下的一个子节点
+            </button>
+            <div style="margin-top:10px"></div>
+            <a id="link" href="12306.com">12306.com</a>
+            <button onclick='
+            var link = document.getElementById("link")
+            link.removeAttribute("href")
+            '>删除超链接的href属性</button>
+            <h6>替换节点</h6>
+            <div id="parentDiv1">
+            <div id="d1">第一个div</div>
+            <div id="d2">第二个div</div>
+            <div id="d3">第三个div</div>
+            </div>
+            <button onclick='
+              var d4 = document.createElement("div")
+              var text = document.createTextNode("第四个div")
+              d4.appendChild(text)
+
+              var d3 = document.getElementById("d3")
+              var parentDiv = document.getElementById("parentDiv1")
+              parentDiv.replaceChild(d4,d3)
+            '>把第3个div替换掉</button>
+            <h6>插入一个节点</h6>
+            <div id="parentDiv2">
+            <div id="d21">第一个div</div>
+            <div id="d22">第二个div</div>
+            </div>
+            <button onclick='
+              var d = document.createElement("div")
+              var text = document.createTextNode("插入一个节点")
+              d.appendChild(text)
+
+              var parent = document.getElementById("parentDiv2")
+              var d22 = document.getElementById("d22")
+              parent.insertBefore(d,d22)
+            '>在第一和第二个div之间插入一个节点</button>
     </div>
   </div>
 </template>
