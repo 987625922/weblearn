@@ -32,13 +32,15 @@
     </div>
     <div class="relative">
       相对定位元素的定位是相对其正常位置。
-      移动相对定位元素，但它原本所占的空间不会改变。
+      与绝对定位不同的是，相对定位不会把该元素从原文档删除掉，
+      而是在原文档的位置的基础上，移动一定的距离
     </div>
     <div class="absolute">
       绝对定位的元素的位置相对于最近的已定位父元素，
       如果元素没有已定位的父元素，那么它的位置相对于html。
       absolute 定位使元素的位置与文档流无关，因此不占据空间。
       absolute 定位的元素和其他元素重叠。
+      z-index属性决定谁掩盖谁
     </div>
     <div class="overflow">
       <p>这里的文本内容是可以滚动的，滚动条方向是垂直方向。</p>
@@ -72,6 +74,10 @@
     <img src class="img-center" />
     <div class="div-absolute-right">使用定位方式-右对齐</div>
     <div class="div-center">水平垂直居中</div>
+    <!-- 图片垂直居中 -->
+    <div style="display:table-cell;height:200px;vertical-align: middle;">
+      <img style="width:100px;height:100px;" src=""/>
+    </div>
     <div class="dropdown">
       <span>下拉菜单的学习</span>
       <div class="dropdown-content">
@@ -79,6 +85,19 @@
         <p>的学习</p>
       </div>
     </div>
+    <!-- 元素的display显示方式有多种，隐藏、块级、内联、内联-块级 -->
+    <!-- 
+    1. display:block; 表示块级元素
+      块级元素会自动在前面和后面加上换行，并且在其上的width和height也能够生效
+      div默认是块级元素
+      span默认是内联元素(不会有换行,width和height也不会生效)
+
+    2.display:inline; 表示内联元素
+      内联元素前后没有换行，并且在其上的width和height也无效。 其大小由其中的内容决定
+
+    3.display:inline-block 内联-块级
+      元素前后没有换行并且能指定大小
+    -->
   </div>
 </template>
 
