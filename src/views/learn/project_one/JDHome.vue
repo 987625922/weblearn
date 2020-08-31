@@ -107,6 +107,54 @@
       </div>
     </div>
     <!--search部分end-->
+    <!--shortcut-nav部分start-->
+    <div class="shortcut-nav">
+      <div class="w">
+        <div class="shortcut-nav-menu">
+          <div class="shortcut-nav-menu-all">
+            <a href="#">全部商品分类</a>
+          </div>
+          <div class="shortcut-nav-menu-one" style="color: #fff">下一段再讲</div>
+        </div>
+        <div class="shortcut-nav-items">
+          <ul>
+            <li>
+              <a href="#">服装城</a>
+            </li>
+            <li>
+              <a href="#">美妆馆</a>
+            </li>
+            <li>
+              <a href="#">京东超市</a>
+            </li>
+            <li>
+              <a href="#">生鲜</a>
+            </li>
+            <li>
+              <a href="#">全球购</a>
+            </li>
+            <li>
+              <a href="#">闪购</a>
+            </li>
+            <li>
+              <a href="#">团购</a>
+            </li>
+            <li>
+              <a href="#">拍卖</a>
+            </li>
+            <li>
+              <a href="#">金融</a>
+            </li>
+          </ul>
+        </div>
+        <div class="shortcut-nav-img">
+          <a href="#">
+            <img src="images/img2.jpg" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--shortcut-nav部分end-->
     <!--底部的口号 start-->
     <div class="slogen">
       <span class="item slogen1">
@@ -701,4 +749,64 @@ dl.last-dl {
   margin: 0 5px;
 }
 /*最底部end*/
+/*shortcut-nav部分start*/
+.shortcut-nav {
+  height: 44px;
+  border-bottom: 2px solid #b1191a;
+}
+.shortcut-nav-menu {
+  /*撑开和撑破是两回事：撑开说明盒子变成那么大，撑破盒子还是那么大，子盒子很大。子盒子shortcut-nav-menu-one把父亲撑破了*/
+  width: 210px;
+  height: 44px; /*浮动的盒子相互影响，不过是否在同一个盒子中*/
+  float: left;
+  position: relative;
+  z-index: 1; /*通过z-index属性将层级放到最高*/
+}
+.shortcut-nav-menu-all a {
+  display: block;
+  width: 190px;
+  height: 44px;
+  color: white;
+  padding: 0 10px;
+  background-color: #b1191a;
+  font: 400 15px/44px "microsoft yahei";
+}
+.shortcut-nav-menu-one {
+  height: 465px;
+  margin-top: 2px;
+  background-color: #c81623;
+  border-left: 1px solid #b1191a;
+  border-bottom: 1px solid #b1191a;
+  /*border-left: 1px solid #000;*/
+  /*border-bottom: 1px solid #000;*/
+}
+.shortcut-nav-items {
+  width: 730px;
+  height: 44px;
+  float: left;
+}
+.shortcut-nav-items li {
+  float: left;
+}
+.shortcut-nav-items a {
+  display: inline-block;
+  height: 44px;
+  padding: 0 20px;
+  color: #333;
+  font: 400 16px/44px "microsoft yahei";
+}
+.shortcut-nav-items a:hover {
+  color: #c81623;
+}
+.shortcut-nav-img {
+  width: 200px;
+  height: 44px;
+  float: right;
+  margin-top: -10px;
+  margin-right: 50px;
+  /*position: relative;*/
+  /*left: -50px;*/
+  /*top: -10px;*/
+}
+/*shortcut-nav部分end*/
 </style>
