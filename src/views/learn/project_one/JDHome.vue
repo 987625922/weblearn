@@ -114,7 +114,43 @@
           <div class="shortcut-nav-menu-all">
             <a href="#">全部商品分类</a>
           </div>
-          <div class="shortcut-nav-menu-one" style="color: #fff">下一段再讲</div>
+          <div class="shortcut-nav-menu-one" style="color: #fff">
+            <ul>
+              <li>
+                <a href>家用电器</a>
+                <i>></i>
+              </li>
+              <li>
+                <a href>手机</a>
+                <span>、</span>
+                <a href>数码</a>
+                <i>></i>
+              </li>
+              <li>
+                <a href>电脑</a>
+                <span>、</span>
+                <a href>办公</a>
+                <i>></i>
+              </li>
+              <li>
+                <a href>家居</a>
+                <span>、</span>
+                <a href>家具</a>
+                <i>></i>
+              </li>
+              <li>
+                <a href>男装</a>
+                <span>、</span>
+                <a href>女装</a>
+                <i>></i>
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </div>
         <div class="shortcut-nav-items">
           <ul>
@@ -154,7 +190,151 @@
         </div>
       </div>
     </div>
-    <!--shortcut-nav部分end-->
+    <!--main部分start-->
+    <div class="main">
+      <div class="w">
+        <div class="main-slider">
+          <a href>
+            <img src="images/slider.jpg" alt />
+          </a>
+
+          <ul>
+            <!--指示点-->
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+          </ul>
+          <a href="javascript:;" class="arrow-left">&lt;</a>
+          <!--左边的箭头-->
+          <a href="javascript:;" class="arrow-right">&gt;</a>
+          <!--右边的箭头-->
+        </div>
+        <!--shortcut-nav部分end-->
+        <div class="main-news-top-faster">
+          <!--京东快报-->
+          <div class="main-news-top-faster-title">
+            <h2>京东快报</h2>
+            <a href="#">更多 ></a>
+          </div>
+          <div class="main-news-top-faster-content">
+            <ul>
+              <li>
+                <span>[特惠]</span>新闻1
+              </li>
+              <li>
+                <span>[公告]</span>新闻2
+              </li>
+              <li>
+                <span>[特惠]</span>新闻3
+              </li>
+              <li>
+                <span>[公告]</span>新闻4
+              </li>
+              <li>
+                <span>[特惠]</span>新闻5
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-news-top-money">
+          <!--充话费-->
+          <ul>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i class="main-news-top-money-icon2"></i>
+                <!--单元格里的图片-->
+                <span>机票</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i></i>
+                <!--单元格里的图片-->
+                <span>话费</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--网页两侧的广告start-->
+    <div class="banner-ad">
+      <a href="http://www.baidu.com"></a>
+    </div>
+    <!--网页两侧的广告end-->
     <!--底部的口号 start-->
     <div class="slogen">
       <span class="item slogen1">
@@ -275,13 +455,51 @@
           <a href="#">联系客服</a>
         </dd>
       </dl>
+      <!--购物指南等 end-->
+      <div class="coverage">
+        <h3>京东自营覆盖区县</h3>
+        <p>京东已向全国2654个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+        <a href="#">查看详情 ></a>
+      </div>
     </div>
-    <!--购物指南等 end-->
-    <div class="coverage">
-      <h3>京东自营覆盖区县</h3>
-      <p>京东已向全国2654个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
-      <a href="#">查看详情 ></a>
+    <!--今日推荐start-->
+    <div class="today">
+      <div class="w clearfix">
+        <div class="today-left fl">
+          <a href></a>
+        </div>
+
+        <div class="today-right">
+          <ul>
+            <li>
+              <a href>
+                <img src="images/today1.jpg" alt />
+              </a>
+            </li>
+            <li>
+              <a href>
+                <img src="images/today2.jpg" alt />
+              </a>
+            </li>
+            <li>
+              <a href>
+                <img src="images/today3.jpg" alt />
+              </a>
+            </li>
+            <li>
+              <a href>
+                <img src="images/today4.jpg" alt />
+              </a>
+            </li>
+          </ul>
+          <a href="javascript:;" class="arrow-left">&lt;</a>
+          <!--左边的箭头-->
+          <a href="javascript:;" class="arrow-right">&gt;</a>
+          <!--右边的箭头-->
+        </div>
+      </div>
     </div>
+    <!--今日推荐end-->
     <!--最底部 start-->
     <div class="w footer-bottom">
       <div class="footer-about">
@@ -809,4 +1027,228 @@ dl.last-dl {
   /*top: -10px;*/
 }
 /*shortcut-nav部分end*/
+/*具体的商品分类start*/
+.shortcut-nav-menu-one ul {
+  font: 400 14px/31px "microsoft yahei"; /*字体属性具有继承性，让儿子 a 具有此继承性*/
+}
+.shortcut-nav-menu-one li {
+  padding-left: 10px;
+  position: relative;
+}
+
+.shortcut-nav-menu-one a {
+  color: #fff;
+}
+
+.shortcut-nav-menu-one i {
+  right: 10px;
+  position: absolute;
+}
+
+.shortcut-nav-menu-one li:hover {
+  background-color: #fff;
+}
+
+.shortcut-nav-menu-one li:hover a,
+span,
+i {
+  color: #c81623;
+}
+/*具体的商品分类end*/
+.main-slider {
+  float: left;
+  margin: 12px 0 0 220px;
+  width: 730px;
+  height: 454px;
+  position: relative;
+}
+
+.main-slider ul {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -66px;
+}
+
+.main-slider ul li {
+  float: left;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  background-color: #3e3e3e;
+  border-radius: 50%; /*圆角矩形*/
+  line-height: 18px;
+  text-align: center; /*让 li 里面的文本水平方向居中*/
+  margin: 0 2px;
+  cursor: pointer; /*鼠标悬停时变成小手*/
+}
+
+.main-slider .arrow-left {
+  /* 轮播图左侧的箭头*/
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  left: 0px;
+  width: 28px;
+  height: 62px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font: 400 22px/62px "sumsun";
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.main-slider .arrow-left:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-slider .arrow-right {
+  /*轮播图右侧的箭头*/
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  right: 0px;
+  width: 28px;
+  height: 62px;
+  background-color: pink;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font: 400 22px/62px "sumsun";
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.main-slider .arrow-right:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main-news-top-faster {
+  height: 163px;
+  border-bottom: 1px dashed #e4e4e4; /*虚线*/
+}
+
+.main-news-top-faster-title {
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px dotted #e8e8e8; /*点线*/
+  padding: 0 15px;
+}
+
+.main-news-top-faster-title h2 {
+  float: left;
+  font: 400 16px/32px "microsoft yahei";
+}
+
+.main-news-top-faster-title a {
+  float: right;
+}
+
+.main-news-top-faster-content {
+  padding: 5px 0 0 15px;
+}
+
+.main-news-top-faster-content li {
+  line-height: 24px;
+}
+
+.main-news-top-faster-content span {
+  font-weight: 700;
+  margin-right: 5px;
+  color: #666;
+}
+
+.main-news-top-money ul {
+  width: 250px;
+}
+.main-news-top-money ul {
+  width: 250px;
+}
+
+.main-news-top-money li {
+  width: 62px;
+  height: 70px;
+  border: 1px solid #e8e8e8;
+  float: left;
+}
+/*充话费部分start*/
+.main-news-top-money {
+  overflow: hidden; /*将多余的部分切掉*/
+}
+
+.main-news-top-money ul {
+  width: 260px; /*让宽度略大于整体的宽度250px*/
+}
+
+.main-news-top-money li {
+  width: 62px;
+  height: 70px;
+  border: 1px solid #e8e8e8;
+  float: left;
+  border-top: 0; /* 将每个单元格的上边框去掉，因为跟单元格的下边框重合了。*/
+  margin-top: -1px; /* 整体向上移动一个单位，因为边框重合了*/
+  margin-left: -1px; /* 整体向左移动一个单位，因为边框重合了*/
+}
+
+.main-news-top-money li a {
+  display: block;
+  width: 62px;
+  height: 30px;
+  padding-top: 40px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+}
+
+.main-news-top-money li a i {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 13px;
+  left: 18px;
+  // background: url("../images/fly.png") right top;
+}
+
+.main-news-top-money .main-news-top-money-icon2 {
+  // background: url("../images/fly.png") right -25px;
+}
+/*充话费部分end*/
+/*今日推荐start*/
+.today {
+  padding: 10px 0 20px;
+}
+
+.today-left a {
+  display: block;
+  width: 210px;
+  height: 150px;
+  // background: url("../images/today.jpg");
+}
+
+.today-right {
+  float: right;
+  width: 1000px;
+  overflow: hidden; /*隐藏掉右侧超出的几个像素*/
+  position: relative;
+}
+
+.today-right ul {
+  width: 410%; /*这一点很有技巧*/
+}
+
+.today-right li {
+  float: left;
+  margin-right: 1px;
+}
+/*banner两侧的广告start*/
+.banner-ad {
+  position: relative;
+}
+
+.banner-ad a {
+  width: 100%;
+  height: 644px;
+  // background: url("../images/ad.png") no-repeat center top;
+  position: absolute;
+}
+/*banner两侧的广告end*/
+/*今日推荐end*/
 </style>
